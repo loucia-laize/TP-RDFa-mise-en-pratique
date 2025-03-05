@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <html lang="fr" prefix="foaf: http://xmlns.com/foaf/0.1/ dc: http://purl.org/dc/elements/1.1/">
+   <!-- l'URI de cette ligne sert à identifier le vocabulaire foaf 'http://xmlns.com/foaf/0.1/'.-->
+   <!-- en interne dans la page HTML-->
+
+    <title>CV</title>    <link rel="meta" type="application/rdf+xml" title="FOAF" href="https://ton-url.com/foaf.rdf"/>
+
+</head>
+
+<!-- AJOUT DES METADONNES -->
+<!-- ajout des vocabulaires schema.ORG, FOAF ET DC -->
+
+
+<!-- verificateur en ligne -->
+<!--https://rdfa.info/play/-->
+
+
+<!--https://github.com/loucia-laize/TP-RDFa-mise-en-pratique -->
+
+<body vocab="http://schema.org/">
+
+    <!-- version non traduite / partie non choisie-->
+
+        <div foaf:>  
+        <div class="resume" resource="http://schema.org">
+            <div class="strip-left-side">
+            <!-- version francaise-->
+            <!-- inchange dans les autres langues-->
+            <div class="profile" typeof="foaf:Contact">
+                <p property="foaf:email" xml:lang="fr">loucia.laize95@gmail.com</p>
+                <p property="foaf:number" xml:lang="fr">0781682776</p>
+                <p property="foaf:socialnetwork" xml:lang="fr">linkedin</p>
+            </div>
+
+                            <!-- COMPÊTENCES -->
+                            <div>
+                                <h1 class="skill" property="dc:title" xml:lang="fr">Compétences</h1>
+                                <h1 class="skill" property="dc:title" xml:lang="en">Skills</h1>
+                                <h1 class="skill" property="dc:title" xml:lang="th">ทักษะ</h1>
+                                
+                                <div class="skill padding-top-sm">
+                                    <span></span>
+                                    <div class="skill-name">Programmation</div>
+                                    <div property="dc:description" xml:lang="fr">
+                                        Langages<br>
+                                        HTML CSS JS Python
+                                        Kotlin (Jet packcompose) 
+                                        Java, SQL, PHP
+                
+                                        Bases de données<br>
+                                        MySQL Xampp ACCESS
+                
+                                        Outils et frameworks<br>
+                                        Android Studio, GIT, Docker 
+                                        Flutter
+                                    </div>
+                                    <div property="dc:description" xml:lang="en">
+                                        Programming Languages<br>
+                                        HTML CSS JS Python
+                                        Kotlin (Jet packcompose)
+                                        Java, SQL, PHP
+                
+                                        Databases<br>
+                                        MySQL Xampp ACCESS
+                
+                                        Tools and Frameworks<br>
+                                        Android Studio, GIT, Docker 
+                                        Flutter
+                                    </div>
+                                    <div property="dc:description" xml:lang="th">
+                                        ภาษาโปรแกรม<br>
+                                        HTML CSS JS Python
+                                        Kotlin (Jet packcompose) 
+                                        Java, SQL, PHP
+                
+                                        ฐานข้อมูล<br>
+                                        MySQL Xampp ACCESS
+                
+                                        เครื่องมือและเฟรมเวิร์ค<br>
+                                        Android Studio, GIT, Docker 
+                                        Flutter
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <!-- LANGUES -->
+                            <div>
+                                <h1 property="dc:title" xml:lang="fr">Langues</h1>
+                                <h1 property="dc:title" xml:lang="en">Languages</h1>
+                                <h1 property="dc:title" xml:lang="th">ภาษา</h1>
+                
+                                <div class="info-box padding-top-sm">
+                                    <div class="lang-box">
+                                        <p class="info-title" property="dc:subject" xml:lang="fr">anglais</p>
+                                        <span class="percent"><div style="width: 90%;"></div></span>
+                                        <p property="dc:description" xml:lang="fr">Anglais : C1</p>
+                                        <p class="info-title" property="dc:subject" xml:lang="en">English</p>
+                                        <span class="percent"><div style="width: 90%;"></div></span>
+                                        <p property="dc:description" xml:lang="en">English: C1</p>
+                                        <p class="info-title" property="dc:subject" xml:lang="th">ภาษาอังกฤษ</p>
+                                        <span class="percent"><div style="width: 90%;"></div></span>
+                                        <p property="dc:description" xml:lang="th">ภาษาอังกฤษ: C1</p>
+                                    </div>
+                
+                                    <div class="lang-box">
+                                        <p class="info-title" property="dc:subject" xml:lang="fr">espagnol</p>
+                                        <span class="percent"><div style="width: 96%;"></div></span>
+                                        <p property="dc:description" xml:lang="fr">Espagnol : B2</p>
+                                        <p class="info-title" property="dc:subject" xml:lang="en">Spanish</p>
+                                        <span class="percent"><div style="width: 96%;"></div></span>
+                                        <p property="dc:description" xml:lang="en">Spanish: B2</p>
+                                        <p class="info-title" property="dc:subject" xml:lang="th">สเปน</p>
+                                        <span class="percent"><div style="width: 96%;"></div></span>
+                                        <p property="dc:description" xml:lang="th">สเปน: B2</p>
+                                    </div>
+                
+                                    <div class="lang-box">
+                                        <p class="info-title" property="dc:subject" xml:lang="fr">russe</p>
+                                        <span class="percent"><div style="width: 40%;"></div></span>
+                                        <p property="dc:description" xml:lang="fr">Russe : A2 / B1</p>
+                                        <p class="info-title" property="dc:subject" xml:lang="en">Russian</p>
+                                        <span class="percent"><div style="width: 40%;"></div></span>
+                                        <p property="dc:description" xml:lang="en">Russian: A2 / B1</p>
+                                        <p class="info-title" property="dc:subject" xml:lang="th">รัสเซีย</p>
+                                        <span class="percent"><div style="width: 40%;"></div></span>
+                                        <p property="dc:description" xml:lang="th">รัสเซีย: A2 / B1</p>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div>
+                                <h1 property="dc:title" xml:lang="fr">Loisirs</h1>
+                                <h1 property="dc:title" xml:lang="en">Hobbies</h1>
+                                <h1 property="dc:title" xml:lang="th">งานอดิเรก</h1>
+                                
+                                <div class="info-box padding-top-sm">
+                                    <div class="hobbies">
+                                        <p class="info-title" property="dc:subject" xml:lang="fr">SPORT : badminton</p>
+                                        <span class="percent"><div style="width: 90%;"></div></span>
+                                        <p property="dc:description" xml:lang="fr">Badminton</p>
+                                        <p class="info-title" property="dc:subject" xml:lang="en">SPORT: badminton</p>
+                                        <span class="percent"><div style="width: 90%;"></div></span>
+                                        <p property="dc:description" xml:lang="en">Badminton</p>
+                                        <p class="info-title" property="dc:subject" xml:lang="th">กีฬา: แบดมินตัน</p>
+                                        <span class="percent"><div style="width: 90%;"></div></span>
+                                        <p property="dc:description" xml:lang="th">แบดมินตัน</p>
+                                    </div>
+                
+                                    <div class="lang-box">
+                                        <p class="info-title" property="dc:subject" xml:lang="fr">VOYAGES : LANGUES ETRANGERES</p>
+                                        <span class="percent"><div style="width: 96%;"></div></span>
+                                        <p property="dc:description" xml:lang="fr">Voyage en fourgon aménagé Europe [Espagne/ France/Italie...] </p>
+                                        <p class="info-title" property="dc:subject" xml:lang="en">TRAVEL: FOREIGN LANGUAGES</p>
+                                        <span class="percent"><div style="width: 96%;"></div></span>
+                                        <p property="dc:description" xml:lang="en">Travel in converted van across Europe [Spain/ France/Italy...]</p>
+                                        <p class="info-title" property="dc:subject" xml:lang="th">การเดินทาง: ภาษาต่างประเทศ</p>
+                                        <span class="percent"><div style="width: 96%;"></div></span>
+                                        <p property="dc:description" xml:lang="th">การเดินทางในรถตู้ที่ตกแต่งแล้วในยุโรป [สเปน/ ฝรั่งเศส/ อิตาลี...]</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+        <!-- PARTIE DROITE-->
+
+        <div class="right-side">
+            <div class="about-me padding-top-bg">
+                <h2 class="profile">Laizé Loucia</h2>
+            
+                <p>
+                    Je suis étudiante Impliquée, organisée, avec l'esprit d'équipe et motivée à la recherche d'une alternance dans le 
+                    développement d'application web. <br> Durée : 1 à 2 ans
+                    Rythme : 1/2 semaines
+            </vr>
+                </p>
+            </div>
+                    <!-- enrichissement sémantique -->
+                    <!-- Experiences -->
+                    <div class="experiences">
+                        <div>
+                            <h2 class="heading-primary-black">A mon sujet</h2>
+                            <p class="description" xml:lang="fr">
+                                <p class="discription">
+                                    Suite à un BUT BAC+3 en développement web, dotée de 3 ans d’expériences 
+                                    en gestion de projets web, je recherche une alternance afin d’intégrer une 
+                                    formation BAC+4 et m’impliquer entièrement dans ce domaine qui m’épanouit.
+                                </p>
+                        </div>
+
+                        <div class="xp-box padding-top-sm">
+                            <p class="xp-year" property="dc:date" xml:lang="fr">2024-2025</p>
+                            <p class="xp-company" property="dc:company" xml:lang="fr">Renault</p>
+                            <p class="xp-position" property="dc:position" xml:lang="fr">Apprentie ingénieure PMO projet Renault Virtual Twin</p>
+                            <p class="description" property="dc:description" xml:lang="fr">
+                                -Création de cockpits avec l’outil PLM 3DExperience...  
+                                -Définition des use case avec Jira 
+                                -Gestion de projet en méthode agile au sein des équipes
+                        </div><br>
+                        <div class="xp-box padding-top-sm">
+                            <p class="xp-year" property="dc:date" xml:lang="fr">2022- 2024 -  Inria - Versailles - alternance </p>
+                            <p class="xp-company" xml:lang="fr">Inria</p>
+                            <p class="xp-position" xml:lang="fr">Apprentie cheffe de projet audiovisuelle </p>
+                            <p>
+                                -Projet d’enquête d’analyse des besoins de 1 000 usagers du progiciel 
+                                DAM avec l’outil Limesurvey. Traitement des données -Excel
+                                Extraction des données et datavisualisations - Python (IDE Thonny)
+                        </div>
+                    </div>
+            
+                    
+                    <!--version english -->
+                    <div class="xp-box padding-top-sm">
+                        <p class="xp-year" property="dc:date" xml:lang="en">2024-2025</p>
+                        <p class="xp-company" property="dc:company" xml:lang="en">Renault</p>
+                        <p class="xp-position" property="dc:position" xml:lang="en">PMO engineering on the projet Renault Virtual Twin</p>
+                        <p class="description" property="dc:description" xml:lang="en">
+                            -Cockpits creation unsing PLM 3DExperience tool ...  
+                            -Use case DEFINTION with Jira 
+                            -Projets agile within the teams
+                    </div><br>
+                    <div class="xp-box padding-top-sm">
+                        <p class="xp-year" property="dc:date" xml:lang="en">2022- 2024 -  Inria - Versailles - alternance </p>
+                        <p class="xp-company" xml:lang="en">Inria</p>
+                        <p class="xp-position" xml:lang="en">audioviusual project manager</p>
+                        <p>
+                            -Survey project to analyse the needs of 1,000 software users 
+                            DAM with Limesurvey tool. Data processing -Excel
+                            Data extraction and data visualizations - Python (Thonny IDE)
+                    </div>
+                </div>
+        
+                
+                    <!--version thalandaise-->
+                    <div class="xp-box padding-top-sm">
+                        <p class="xp-year" property="dc:date" xml:lang="th">2024-2025</p>
+                        <p class="xp-company" property="dc:company" xml:lang="th">Renault</p>
+                        <p class="xp-position" property="dc:position" xml:lang="th">วิศวกรรม PMO บนเครื่องบิน Projet Renault Virtual Twin</p>
+                        <p class="description" property="dc:description" xml:lang="th">
+                            -การสร้าง Cockpits unsing PLM 3DExperience tool ...  
+                            -ใช้ DEFINTION กรณีกับจิระ 
+                            -โปรเจตส์มีความคล่องตัวภายในทีม
+                    </div><br>
+                    <div class="xp-box padding-top-sm">
+                        <p class="xp-year" property="dc:date" xml:lang="th">2022- 2024 -  Inria - Versailles - alternance </p>
+                        <p class="xp-company" xml:lang="th">Inria</p>
+                        <p class="xp-position" xml:lang="th">ผู้จัดการโครงการภาพและเสียง</p>
+                        <p>
+                            -สํารวจโครงการเพื่อวิเคราะห์ความต้องการของผู้ใช้ซอฟต์แวร์ 1,000 ราย 
+                            เขื่อนพร้อมเครื่องมือ Limesurvey. การประมวลผลข้อมูล -Excel
+                            การดึงข้อมูลและการแสดงภาพข้อมูล - Python (Thonny IDE)
+                    </div>
+                </div>
+            </div>
+        </div>
+  </div>
+</body>
+</html>
